@@ -1,0 +1,23 @@
+{
+  "name": "hajime-matsumoto/seaf-yaml",
+  "description": "Simple Easy Acceptable Framework Yaml Component",
+  "keywords": ["framework"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "http://hazime.org",
+  "authors": [
+    {
+      "name": "Hajime Matsumoto",
+      "email": "mail@hazime.org"
+    }
+  ],
+  "require": {
+    'hajime-matsumoto/seaf-core': '*'
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-0": { "Seaf\\Component\\Yaml": "src/Yaml" },
+    "files": [ "src/autoload.php" ]
+  }
+}
