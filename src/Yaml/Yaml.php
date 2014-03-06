@@ -58,9 +58,7 @@ class Yaml
             return yaml_emit( $array );
         }
 
-        ob_start( );
-        Spyc::YAMLDump( $array );
-        return ob_get_clean( );
+        return Spyc::YAMLDump( $array );
     }
 
 }
